@@ -12,8 +12,8 @@ namespace caGOLeamaya
         private int filas;
         private int columnas;     
 
-        public static int vivo = 1;
-        public static int muerto = 0;
+        public  int vivo = 1;
+        public  int muerto = 0;
        
 
         public clGoL()
@@ -40,6 +40,15 @@ namespace caGOLeamaya
                     tabla[i][j] = muerto;
         }
 
+        public bool estaVivo(int fila, int columna)
+        {
+            if (fila >= 0 && columna >= 0 && fila < filas && columna < columnas)
+                return tabla[fila][columna] == vivo;
+            else
+                return false;
+
+        }
+                
         public int cantidadVecinosVivos(int fila, int columna)
         {
             int cantidadVecinosVivos = 0;
@@ -62,13 +71,51 @@ namespace caGOLeamaya
             return cantidadVecinosVivos;
         }
 
-        public bool estaVivo(int fila, int columna)
+        public void ponerCeldaViva(int fila, int columna)
         {
-            if (fila >= 0 && columna >= 0 && fila < filas && columna < columnas)            
-                return tabla[fila][columna] == vivo;            
+            tabla[fila][columna] = vivo;
+        }
+
+        public bool estaMuerto(int fila, int columna)
+        {
+            if (fila >= 0 && columna >= 0 && fila < filas && columna < columnas)
+                return tabla[fila][columna] == muerto;
             else
-                return false;
-           
+                return true;
+        }
+
+        //RULE1: Any Live cell with fewer than two live neighbours DIES, as if caused by under-population.
+        private bool EstaVivaConMenosDeDosVecinosVivos(int fila, int columna)
+        {
+            int cantidadVecinosV = cantidadVecinosVivos(fila, columna);
+            return estaVivo(fila, columna) && cantidadVecinosV < 2;
+        }
+
+        public void iterar()
+        {
+
+            int[][] proximaTabla = new int[this.filas][];
+            for (int i = 0; i < this.filas; i++)
+                proximaTabla[i] = new int[this.columnas];
+
+            for (int i = 0; i < filas; i++)
+            {
+                for (int j = 0; j < columnas; j++)
+                {
+
+                    if (EstaVivaConMenosDeDosVecinosVivos(i, j))
+                    {
+                        proximaTabla[i][j] = muerto;
+                    }
+                    else
+                    {
+                        proximaTabla[i][j] = tabla[i][j];
+                    }
+                }
+
+            }
+
+            proximaTabla.CopyTo(tabla, 0);
         }
 
         
