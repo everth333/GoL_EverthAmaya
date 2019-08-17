@@ -75,18 +75,35 @@ namespace tpGoL
         }
 
 
+        //[TestMethod]
+        //public void TestMethod2()
+        //{
+        //    //
+        //    // TODO: Add test logic	here
+        //    //
+        //    caGOLeamaya.clGoL objGol = new caGOLeamaya.clGoL();
+        //    string expected = objGol.Hello();
+        //    string result = "Hello1";
+        //    Assert.AreEqual(expected, result);
+
+        //}
+
         [TestMethod]
-        public void TestMethod2()
+        public void TestGrillaVacia()
         {
             //
             // TODO: Add test logic	here
             //
-            caGOLeamaya.clGoL objGol = new caGOLeamaya.clGoL();
-            string expected = objGol.Hello();
-            string result = "Hello1";
-            Assert.AreEqual(expected, result);
+            caGOLeamaya.clGoL objGol = new caGOLeamaya.clGoL(10,10);
+            string tabla = objGol.imprimir();
+            //Assert.Inconclusive(grid.ToString());
+
+            int expected = 0;
+            int result = objGol.obtenerValor(1,1);
+            Assert.AreEqual(expected, result);                       
 
         }
+
 
     }
 }

@@ -5,3 +5,10 @@ C:\Users\Neidycita\Documents\Visual Studio 2008\Projects\tpGoL\tpGoL\obj\Debug\t
 C:\Users\Neidycita\Documents\Visual Studio 2008\Projects\tpGoL\tpGoL\obj\Debug\tpGoL.pdb
 C:\Users\Neidycita\Documents\Visual Studio 2008\Projects\tpGoL\tpGoL\bin\Debug\caGOLeamaya.exe
 C:\Users\Neidycita\Documents\Visual Studio 2008\Projects\tpGoL\tpGoL\bin\Debug\caGOLeamaya.pdb
+C:\Users\Neidycita\Documents\GitHub\GoL_EverthAmaya\tpGoL\tpGoL\bin\Debug\tpGoL.dll
+C:\Users\Neidycita\Documents\GitHub\GoL_EverthAmaya\tpGoL\tpGoL\bin\Debug\tpGoL.pdb
+C:\Users\Neidycita\Documents\GitHub\GoL_EverthAmaya\tpGoL\tpGoL\bin\Debug\caGOLeamaya.exe
+C:\Users\Neidycita\Documents\GitHub\GoL_EverthAmaya\tpGoL\tpGoL\bin\Debug\caGOLeamaya.pdb
+C:\Users\Neidycita\Documents\GitHub\GoL_EverthAmaya\tpGoL\tpGoL\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Neidycita\Documents\GitHub\GoL_EverthAmaya\tpGoL\tpGoL\obj\Debug\tpGoL.dll
+C:\Users\Neidycita\Documents\GitHub\GoL_EverthAmaya\tpGoL\tpGoL\obj\Debug\tpGoL.pdb

@@ -7,9 +7,7 @@ namespace caGOLeamaya
 {
     class Program
     {
-        private int rows;
-        private int columns;
-
+       
         static void Main(string[] args)
         {
             print();
@@ -20,6 +18,7 @@ namespace caGOLeamaya
             System.Console.WriteLine("Hola Mundo");
             System.Console.Read();
         }
-
+        
+       
     }
 }

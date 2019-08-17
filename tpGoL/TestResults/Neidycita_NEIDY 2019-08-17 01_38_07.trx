@@ -1,0 +1,68 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="e16afd12-0d4e-4b43-b1fa-cf49ac892d6a" name="Neidycita@NEIDY 2019-08-17 01:38:07" runUser="Neidy\Neidycita" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2006">
+  <TestRunConfiguration name="Local Test Run" id="4fecd580-fa83-4c39-bfa3-6eb465bb45be">
+    <Description>This is a default test run configuration for a local test run.</Description>
+    <Deployment runDeploymentRoot="C:\Users\Neidycita\Documents\GitHub\GoL_EverthAmaya\tpGoL\TestResults\Neidycita_NEIDY 2019-08-17 01_38_07">
+      <DeploymentItem filename="C:\Users\Neidycita\Documents\GitHub\GoL_EverthAmaya\tpGoL\caGOLeamaya\bin\Debug\caGOLeamaya.exe" />
+    </Deployment>
+    <TestTypeSpecific />
+  </TestRunConfiguration>
+  <ResultSummary outcome="Failed">
+    <Counters total="3" executed="3" passed="2" error="0" failed="1" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <Times creation="2019-08-17T01:38:07.0169136-04:00" queuing="2019-08-17T01:38:14.0641954-04:00" start="2019-08-17T01:38:14.3610580-04:00" finish="2019-08-17T01:38:15.1267479-04:00" />
+  <TestDefinitions>
+    <UnitTest name="TestMethod1" storage="c:\users\neidycita\documents\github\gol_everthamaya\tpgol\tpgol\bin\debug\tpgol.dll" id="69daf279-0084-93aa-9ef3-7f2284b2e791">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <Execution id="1836f5f7-2c9f-4468-8eb6-470ffde5074d" />
+      <TestMethod codeBase="C:\Users\Neidycita\Documents\GitHub\GoL_EverthAmaya\tpGoL\tpGoL\bin\Debug\tpGoL.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="tpGoL.UnitTest1, tpGoL" name="TestMethod1" />
+    </UnitTest>
+    <UnitTest name="TestGrillaVacia" storage="c:\users\neidycita\documents\github\gol_everthamaya\tpgol\tpgol\bin\debug\tpgol.dll" id="5ac29d0e-96e4-0454-4d59-7407042c1e16">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <Execution id="ce4e151e-8866-4522-970b-7fd0234ade40" />
+      <TestMethod codeBase="C:\Users\Neidycita\Documents\GitHub\GoL_EverthAmaya\tpGoL\tpGoL\bin\Debug\tpGoL.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="tpGoL.UnitTest1, tpGoL" name="TestGrillaVacia" />
+    </UnitTest>
+    <UnitTest name="TestMethod2" storage="c:\users\neidycita\documents\github\gol_everthamaya\tpgol\tpgol\bin\debug\tpgol.dll" id="e0870f3a-5b31-de7b-5e5b-10b3cb5dd473">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <Execution id="d98d345a-7ab3-4ebb-a6ab-9335169c66f4" />
+      <TestMethod codeBase="C:\Users\Neidycita\Documents\GitHub\GoL_EverthAmaya\tpGoL\tpGoL\bin\Debug\tpGoL.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="tpGoL.UnitTest1, tpGoL" name="TestMethod2" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="69daf279-0084-93aa-9ef3-7f2284b2e791" executionId="1836f5f7-2c9f-4468-8eb6-470ffde5074d" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="e0870f3a-5b31-de7b-5e5b-10b3cb5dd473" executionId="d98d345a-7ab3-4ebb-a6ab-9335169c66f4" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="5ac29d0e-96e4-0454-4d59-7407042c1e16" executionId="ce4e151e-8866-4522-970b-7fd0234ade40" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="1836f5f7-2c9f-4468-8eb6-470ffde5074d" testId="69daf279-0084-93aa-9ef3-7f2284b2e791" testName="TestMethod1" computerName="NEIDY" duration="00:00:00.0207176" startTime="2019-08-17T01:38:14.5173103-04:00" endTime="2019-08-17T01:38:14.7985631-04:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+      <Output>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="d98d345a-7ab3-4ebb-a6ab-9335169c66f4" testId="e0870f3a-5b31-de7b-5e5b-10b3cb5dd473" testName="TestMethod2" computerName="NEIDY" duration="00:00:00.0655545" startTime="2019-08-17T01:38:14.8298135-04:00" endTime="2019-08-17T01:38:14.9235654-04:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+      <Output>
+        <ErrorInfo>
+          <Message>Assert.AreEqual failed. Expected:&lt;Hello&gt;. Actual:&lt;Hello1&gt;. </Message>
+          <StackTrace>   en tpGoL.UnitTest1.TestMethod2() en C:\Users\Neidycita\Documents\GitHub\GoL_EverthAmaya\tpGoL\tpGoL\UnitTest1.cs:línea 87
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="ce4e151e-8866-4522-970b-7fd0234ade40" testId="5ac29d0e-96e4-0454-4d59-7407042c1e16" testName="TestGrillaVacia" computerName="NEIDY" duration="00:00:00.0014390" startTime="2019-08-17T01:38:14.9548149-04:00" endTime="2019-08-17T01:38:15.0017105-04:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+      <Output>
+      </Output>
+    </UnitTestResult>
+  </Results>
+</TestRun>

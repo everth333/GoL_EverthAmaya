@@ -1,0 +1,53 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="a5f26063-9629-4b31-a863-30cbed2b8e5b" name="Neidycita@NEIDY 2019-08-17 01:43:01" runUser="Neidy\Neidycita" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2006">
+  <TestRunConfiguration name="Local Test Run" id="4fecd580-fa83-4c39-bfa3-6eb465bb45be">
+    <Description>This is a default test run configuration for a local test run.</Description>
+    <Deployment runDeploymentRoot="C:\Users\Neidycita\Documents\GitHub\GoL_EverthAmaya\tpGoL\TestResults\Neidycita_NEIDY 2019-08-17 01_43_01">
+      <DeploymentItem filename="C:\Users\Neidycita\Documents\GitHub\GoL_EverthAmaya\tpGoL\caGOLeamaya\bin\Debug\caGOLeamaya.exe" />
+    </Deployment>
+    <TestTypeSpecific />
+  </TestRunConfiguration>
+  <ResultSummary outcome="Error">
+    <Counters total="2" executed="2" passed="1" error="0" failed="0" timeout="0" aborted="1" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+    <RunInfos>
+      <RunInfo computerName="NEIDY" outcome="Error" timestamp="2019-08-17T01:44:15.6092639-04:00">
+        <Text>Test host process exited unexpectedly.</Text>
+      </RunInfo>
+    </RunInfos>
+  </ResultSummary>
+  <Times creation="2019-08-17T01:43:01.8055206-04:00" queuing="2019-08-17T01:43:02.7557007-04:00" start="2019-08-17T01:43:02.8963119-04:00" finish="2019-08-17T01:44:15.6092639-04:00" />
+  <TestDefinitions>
+    <UnitTest name="TestMethod1" storage="c:\users\neidycita\documents\github\gol_everthamaya\tpgol\tpgol\bin\debug\tpgol.dll" id="69daf279-0084-93aa-9ef3-7f2284b2e791">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <Execution id="e8c58db1-5ea4-4062-8374-69ddc4571a75" />
+      <TestMethod codeBase="C:\Users\Neidycita\Documents\GitHub\GoL_EverthAmaya\tpGoL\tpGoL\bin\Debug\tpGoL.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="tpGoL.UnitTest1, tpGoL" name="TestMethod1" />
+    </UnitTest>
+    <UnitTest name="TestGrillaVacia" storage="c:\users\neidycita\documents\github\gol_everthamaya\tpgol\tpgol\bin\debug\tpgol.dll" id="5ac29d0e-96e4-0454-4d59-7407042c1e16">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <Execution id="29b13ceb-83a5-4435-bf59-4daf782394ed" />
+      <TestMethod codeBase="C:\Users\Neidycita\Documents\GitHub\GoL_EverthAmaya\tpGoL\tpGoL\bin\Debug\tpGoL.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="tpGoL.UnitTest1, tpGoL" name="TestGrillaVacia" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="69daf279-0084-93aa-9ef3-7f2284b2e791" executionId="e8c58db1-5ea4-4062-8374-69ddc4571a75" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="5ac29d0e-96e4-0454-4d59-7407042c1e16" executionId="4397d716-b623-443d-9dd4-ebf0afb8b63a" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="e8c58db1-5ea4-4062-8374-69ddc4571a75" testId="69daf279-0084-93aa-9ef3-7f2284b2e791" testName="TestMethod1" computerName="NEIDY" duration="00:00:00.0329088" startTime="2019-08-17T01:43:03.0369376-04:00" endTime="2019-08-17T01:43:03.2869414-04:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+      <Output>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="4397d716-b623-443d-9dd4-ebf0afb8b63a" testId="5ac29d0e-96e4-0454-4d59-7407042c1e16" testName="TestGrillaVacia" computerName="NEIDY" duration="00:01:12.2910734" startTime="2019-08-17T01:43:03.3181905-04:00" endTime="2019-08-17T01:44:15.6092639-04:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Aborted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+    </UnitTestResult>
+  </Results>
+</TestRun>
