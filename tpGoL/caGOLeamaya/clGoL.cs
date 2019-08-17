@@ -52,7 +52,7 @@ namespace caGOLeamaya
         public int cantidadVecinosVivos(int fila, int columna)
         {
             int cantidadVecinosVivos = 0;
-
+            // 7 , 8
             if (estaVivo(fila - 1, columna - 1))
                 cantidadVecinosVivos++;
             if (estaVivo(fila - 1, columna ))
@@ -64,6 +64,8 @@ namespace caGOLeamaya
             if (estaVivo(fila + 1, columna + 1))
                 cantidadVecinosVivos++;
             if (estaVivo(fila + 1, columna ))
+                cantidadVecinosVivos++;
+            if (estaVivo(fila + 1, columna-1))
                 cantidadVecinosVivos++;
             if (estaVivo(fila , columna - 1))
                 cantidadVecinosVivos++;
@@ -88,8 +90,22 @@ namespace caGOLeamaya
         private bool EstaVivaConMenosDeDosVecinosVivos(int fila, int columna)
         {
             int cantidadVecinosV = cantidadVecinosVivos(fila, columna);
-            return estaVivo(fila, columna) && cantidadVecinosV < 2;
+            if (estaVivo(fila, columna) && (cantidadVecinosV < 2))
+                return true;
+            else
+                return false;
         }
+
+        //RULE2:Any Live cell with two or three live neighbours LIVES, on the next generation.
+        private bool EstaVivaConDosOrTresVecinosVivos(int fila, int columna)
+        {
+            int cantidadVecinosV = cantidadVecinosVivos(fila, columna);
+            if (estaVivo(fila, columna) && (cantidadVecinosV == 2 || cantidadVecinosV == 3))
+                return true;
+            else
+                return false;
+        }
+       
 
         public void iterar()
         {
@@ -109,8 +125,20 @@ namespace caGOLeamaya
                     }
                     else
                     {
-                        proximaTabla[i][j] = tabla[i][j];
+                        if ((i == 7) && (j == 7))
+                        {
+
+                        }
+                        if (EstaVivaConDosOrTresVecinosVivos(i, j))
+                        {
+                            proximaTabla[i][j] = vivo;
+                        }
+                        else
+                        {
+                            proximaTabla[i][j] = tabla[i][j];
+                        }
                     }
+
                 }
 
             }

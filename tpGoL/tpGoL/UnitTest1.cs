@@ -104,7 +104,7 @@ namespace tpGoL
 
         }
 
-        //RULE1:Any Live cell with fewer than two live neighbours DIES, as if caused by under-population.
+        //RULE1: Any Live cell with fewer than two live neighbours DIES, as if caused by under-population.
         [TestMethod]
         public void TestEstaVivaConMenosDeDosVecinosVivos()
         {
@@ -152,6 +152,81 @@ namespace tpGoL
         //    Assert.AreEqual(expected + expected2 + expected3, result + result2 + result3);
         //}
 
+        // RULE2:Any Live cell with two or three live neighbours LIVES, on the next generation.
+        [TestMethod]
+        public void TestEstaVivaConDosOrTresVecinosVivos()
+        {
+            caGOLeamaya.clGoL objGol = new caGOLeamaya.clGoL(10, 10);
+            objGol.ponerCeldaViva(3, 3);
+            objGol.ponerCeldaViva(3, 4);
+
+            objGol.ponerCeldaViva(5, 2);
+            objGol.ponerCeldaViva(5, 3);
+            objGol.ponerCeldaViva(6, 2);
+            objGol.ponerCeldaViva(6, 3);
+
+            objGol.ponerCeldaViva(7, 7);
+            objGol.ponerCeldaViva(7, 8);
+            objGol.ponerCeldaViva(8, 7);
+
+            string tabla1 = objGol.imprimir();
+            //Assert.Inconclusive(tabla1.ToString());
+            objGol.iterar();
+            string tabla2 = objGol.imprimir();
+
+            int expected = objGol.vivo;
+            int result = objGol.obtenerValor(7, 7);
+            //Assert.AreEqual(expected, result);
+
+            int expected2 = objGol.vivo;
+            int result2 = objGol.obtenerValor(7, 8);
+
+            int expected3 = objGol.vivo;
+            int result3 = objGol.obtenerValor(8, 7);
+
+            Assert.AreEqual(expected + expected2 + expected3, result + result2 + result3);
+        }
+
+        [TestMethod]
+        public void TestEstaVivaConDosOrTresVecinosVivos3()
+        {
+            caGOLeamaya.clGoL objGol = new caGOLeamaya.clGoL(10, 10);
+            objGol.ponerCeldaViva(3, 3);
+            objGol.ponerCeldaViva(3, 4);
+
+            objGol.ponerCeldaViva(5, 2);
+            objGol.ponerCeldaViva(5, 3);
+            objGol.ponerCeldaViva(6, 2);
+            objGol.ponerCeldaViva(6, 3);
+            objGol.ponerCeldaViva(7, 2);
+            objGol.ponerCeldaViva(7, 3);
+
+            objGol.ponerCeldaViva(7, 7);
+            objGol.ponerCeldaViva(7, 8);
+            objGol.ponerCeldaViva(8, 7);
+            objGol.ponerCeldaViva(9, 7);
+            objGol.ponerCeldaViva(9, 8);
+
+            string tabla1 = objGol.imprimir();
+            //Assert.Inconclusive(tabla1.ToString());
+            objGol.iterar();
+            string tabla2 = objGol.imprimir();
+
+            int expected = objGol.muerto;
+            int result = objGol.obtenerValor(5, 2);
+            //Assert.AreEqual(expected, result);
+
+            int expected2 = objGol.vivo;
+            int result2 = objGol.obtenerValor(5, 3);
+
+            int expected3 = objGol.vivo;
+            int result3 = objGol.obtenerValor(6, 2);
+
+            int expected4 = objGol.vivo;
+            int result4 = objGol.obtenerValor(6, 3);
+
+            Assert.AreEqual(expected + expected2 + expected3 + expected4, result + result2 + result3 + result4);
+        }
 
     }
 }
