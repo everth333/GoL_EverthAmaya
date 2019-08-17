@@ -7,6 +7,9 @@ namespace caGOLeamaya
 {
     class Program
     {
+        private int rows;
+        private int columns;
+
         static void Main(string[] args)
         {
             print();
