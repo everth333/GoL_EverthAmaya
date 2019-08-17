@@ -11,13 +11,14 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 		tpGoL2.vsmdi = tpGoL2.vsmdi
 		tpGoL3.vsmdi = tpGoL3.vsmdi
 		tpGoL4.vsmdi = tpGoL4.vsmdi
+		tpGoL5.vsmdi = tpGoL5.vsmdi
 	EndProjectSection
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "caGOLeamaya", "caGOLeamaya\caGOLeamaya.csproj", "{12A99C4A-3007-42A6-BF8A-A2F1F4C6A0CE}"
 EndProject
 Global
 	GlobalSection(TestCaseManagementSettings) = postSolution
-		CategoryFile = tpGoL4.vsmdi
+		CategoryFile = tpGoL5.vsmdi
 	EndGlobalSection
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU

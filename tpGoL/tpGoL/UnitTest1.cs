@@ -187,6 +187,7 @@ namespace tpGoL
             Assert.AreEqual(expected + expected2 + expected3, result + result2 + result3);
         }
 
+
         [TestMethod]
         public void TestEstaVivaConMasDeVecinosVivos()
         {
@@ -227,6 +228,68 @@ namespace tpGoL
 
             Assert.AreEqual(expected + expected2 + expected3 + expected4, result + result2 + result3 + result4);
         }
+
+
+        [TestMethod]
+        public void TestEstaMuertoConExactamenteTresVecinosVivos()
+        {
+            caGOLeamaya.clGoL objGol = new caGOLeamaya.clGoL(10, 10);
+            objGol.ponerCeldaViva(3, 3);
+            objGol.ponerCeldaViva(3, 4);
+
+            objGol.ponerCeldaViva(5, 2);
+            objGol.ponerCeldaViva(5, 3);
+            objGol.ponerCeldaViva(6, 2);
+            objGol.ponerCeldaViva(6, 3);
+            objGol.ponerCeldaViva(7, 2);
+            objGol.ponerCeldaViva(7, 3);
+
+            objGol.ponerCeldaViva(7, 7);
+            objGol.ponerCeldaViva(7, 8);
+            objGol.ponerCeldaViva(8, 7);
+            objGol.ponerCeldaViva(9, 7);
+            objGol.ponerCeldaViva(9, 8);
+
+            string tabla1 = objGol.imprimir();
+            //Assert.Inconclusive(tabla1.ToString());
+            objGol.iterar();
+            string tabla2 = objGol.imprimir();
+
+            int expected = objGol.muerto;
+            int result = objGol.obtenerValor(3, 2);
+            //Assert.AreEqual(expected, result);
+
+            int expected2 = objGol.muerto;
+            int result2 = objGol.obtenerValor(3, 3);
+
+            int expected3 = objGol.muerto;
+            int result3 = objGol.obtenerValor(3, 4);
+
+
+            int expected4 = objGol.vivo;
+            int result4 = objGol.obtenerValor(4, 2);
+            //Assert.AreEqual(expected, result);
+
+            int expected5 = objGol.muerto;
+            int result5 = objGol.obtenerValor(4, 3);
+
+            int expected6 = objGol.vivo;
+            int result6 = objGol.obtenerValor(4, 4);
+
+
+            int expected7 = objGol.vivo;
+            int result7 = objGol.obtenerValor(5, 2);
+            //Assert.AreEqual(expected, result);
+
+            int expected8 = objGol.vivo;
+            int result8 = objGol.obtenerValor(5, 3);
+
+            int expected9 = objGol.muerto;
+            int result9 = objGol.obtenerValor(5, 4);
+
+            Assert.AreEqual(expected + expected2 + expected3 + expected4 + expected5 + expected6 + expected7 + expected8 + expected9, result + result2 + result3 + result4 + result5 + result6 + result7 + result8 + result9);
+        }
+
 
     }
 }

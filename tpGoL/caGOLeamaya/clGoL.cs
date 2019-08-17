@@ -86,7 +86,7 @@ namespace caGOLeamaya
                 return true;
         }
 
-        //RULE1: Any Live cell with fewer than two live neighbours DIES, as if caused by under-population.
+        // RULE1: Any Live cell with fewer than two live neighbours DIES, as if caused by under-population.
         private bool EstaVivaConMenosDeDosVecinosVivos(int fila, int columna)
         {
             int cantidadVecinosV = cantidadVecinosVivos(fila, columna);
@@ -96,7 +96,7 @@ namespace caGOLeamaya
                 return false;
         }
 
-        //RULE2:Any Live cell with two or three live neighbours LIVES, on the next generation.
+        // RULE2: Any Live cell with two or three live neighbours LIVES, on the next generation.
         private bool EstaVivaConDosOrTresVecinosVivos(int fila, int columna)
         {
             int cantidadVecinosV = cantidadVecinosVivos(fila, columna);
@@ -115,7 +115,17 @@ namespace caGOLeamaya
             else
                 return false;
         }
-       
+
+        // RULE4: Any Dead cell with exactly three live neighbours becomes a live cell, as if by reproduction.
+        private bool EstaMuertoConExactamenteTresVecinosVivos(int fila, int columna)
+        {
+            int cantidadVecinosV = cantidadVecinosVivos(fila, columna);
+            if (estaMuerto(fila, columna) && (cantidadVecinosV == 3))
+                return true;
+            else
+                return false;
+        }
+
 
         public void iterar()
         {
@@ -151,7 +161,14 @@ namespace caGOLeamaya
                             }
                             else
                             {
-                                proximaTabla[i][j] = tabla[i][j];
+                                if (EstaMuertoConExactamenteTresVecinosVivos(i, j))
+                                {
+                                    proximaTabla[i][j] = vivo;
+                                }
+                                else
+                                {
+                                    proximaTabla[i][j] = tabla[i][j];
+                                }
                             }
                         }
                     }
@@ -163,6 +180,7 @@ namespace caGOLeamaya
             proximaTabla.CopyTo(tabla, 0);
         }
 
+
         
         public int obtenerValor(int fila, int columna)
         {
@@ -171,6 +189,7 @@ namespace caGOLeamaya
             else
                 return 0;
         }
+
         public String imprimir()
         {
             StringBuilder sb = new StringBuilder();
