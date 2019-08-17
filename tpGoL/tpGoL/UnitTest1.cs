@@ -188,7 +188,7 @@ namespace tpGoL
         }
 
         [TestMethod]
-        public void TestEstaVivaConDosOrTresVecinosVivos3()
+        public void TestEstaVivaConMasDeVecinosVivos()
         {
             caGOLeamaya.clGoL objGol = new caGOLeamaya.clGoL(10, 10);
             objGol.ponerCeldaViva(3, 3);
@@ -212,17 +212,17 @@ namespace tpGoL
             objGol.iterar();
             string tabla2 = objGol.imprimir();
 
-            int expected = objGol.muerto;
+            int expected = objGol.vivo;
             int result = objGol.obtenerValor(5, 2);
             //Assert.AreEqual(expected, result);
 
             int expected2 = objGol.vivo;
             int result2 = objGol.obtenerValor(5, 3);
 
-            int expected3 = objGol.vivo;
+            int expected3 = objGol.muerto;
             int result3 = objGol.obtenerValor(6, 2);
 
-            int expected4 = objGol.vivo;
+            int expected4 = objGol.muerto;
             int result4 = objGol.obtenerValor(6, 3);
 
             Assert.AreEqual(expected + expected2 + expected3 + expected4, result + result2 + result3 + result4);

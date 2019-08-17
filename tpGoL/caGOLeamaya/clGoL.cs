@@ -105,6 +105,16 @@ namespace caGOLeamaya
             else
                 return false;
         }
+
+        // RULE3: Any Live cell with more than three live neighbours DIES, as if by over-population.
+        private bool EstaVivaConMasDeTresVecinosVivos(int fila, int columna)
+        {
+            int cantidadVecinosV = cantidadVecinosVivos(fila, columna);
+            if (estaVivo(fila, columna) && (cantidadVecinosV > 3))
+                return true;
+            else
+                return false;
+        }
        
 
         public void iterar()
@@ -135,7 +145,14 @@ namespace caGOLeamaya
                         }
                         else
                         {
-                            proximaTabla[i][j] = tabla[i][j];
+                            if (EstaVivaConMasDeTresVecinosVivos(i, j))
+                            {
+                                proximaTabla[i][j] = muerto;
+                            }
+                            else
+                            {
+                                proximaTabla[i][j] = tabla[i][j];
+                            }
                         }
                     }
 

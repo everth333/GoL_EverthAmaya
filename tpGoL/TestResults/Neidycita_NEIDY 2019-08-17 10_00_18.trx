@@ -1,0 +1,89 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="01725d81-1a97-4b0d-b1e4-432fc613b3b6" name="Neidycita@NEIDY 2019-08-17 10:00:18" runUser="Neidy\Neidycita" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2006">
+  <TestRunConfiguration name="Local Test Run" id="4fecd580-fa83-4c39-bfa3-6eb465bb45be">
+    <Description>This is a default test run configuration for a local test run.</Description>
+    <Deployment runDeploymentRoot="C:\Users\Neidycita\Documents\GitHub\GoL_EverthAmaya\tpGoL\TestResults\Neidycita_NEIDY 2019-08-17 10_00_18">
+      <DeploymentItem filename="C:\Users\Neidycita\Documents\GitHub\GoL_EverthAmaya\tpGoL\caGOLeamaya\bin\Debug\caGOLeamaya.exe" />
+    </Deployment>
+    <TestTypeSpecific />
+  </TestRunConfiguration>
+  <ResultSummary outcome="Completed">
+    <Counters total="5" executed="5" passed="5" error="0" failed="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <Times creation="2019-08-17T10:00:18.3727639-04:00" queuing="2019-08-17T10:00:20.7044653-04:00" start="2019-08-17T10:00:20.8567662-04:00" finish="2019-08-17T10:00:48.1961303-04:00" />
+  <TestDefinitions>
+    <UnitTest name="TestEstaVivaConMasDeVecinosVivos" storage="c:\users\neidycita\documents\github\gol_everthamaya\tpgol\tpgol\bin\debug\tpgol.dll" id="e7672e9e-001c-1fcd-6a86-7bb5aaaac17f">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <Execution id="29835aaf-5533-4425-a706-060104c85d51" />
+      <TestMethod codeBase="C:\Users\Neidycita\Documents\GitHub\GoL_EverthAmaya\tpGoL\tpGoL\bin\Debug\tpGoL.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="tpGoL.UnitTest1, tpGoL" name="TestEstaVivaConMasDeVecinosVivos" />
+    </UnitTest>
+    <UnitTest name="TestEstaVivaConMenosDeDosVecinosVivos" storage="c:\users\neidycita\documents\github\gol_everthamaya\tpgol\tpgol\bin\debug\tpgol.dll" id="050686cc-1fb9-8126-47b4-89796870e68b">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <Execution id="8b9c1c40-a866-466d-a2db-4fed5b1281d7" />
+      <TestMethod codeBase="C:\Users\Neidycita\Documents\GitHub\GoL_EverthAmaya\tpGoL\tpGoL\bin\Debug\tpGoL.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="tpGoL.UnitTest1, tpGoL" name="TestEstaVivaConMenosDeDosVecinosVivos" />
+    </UnitTest>
+    <UnitTest name="TestMethod1" storage="c:\users\neidycita\documents\github\gol_everthamaya\tpgol\tpgol\bin\debug\tpgol.dll" id="69daf279-0084-93aa-9ef3-7f2284b2e791">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <Execution id="c12e2e1d-5e59-4ce2-ab08-1de3b12830e3" />
+      <TestMethod codeBase="C:\Users\Neidycita\Documents\GitHub\GoL_EverthAmaya\tpGoL\tpGoL\bin\Debug\tpGoL.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="tpGoL.UnitTest1, tpGoL" name="TestMethod1" />
+    </UnitTest>
+    <UnitTest name="TestGrillaVacia" storage="c:\users\neidycita\documents\github\gol_everthamaya\tpgol\tpgol\bin\debug\tpgol.dll" id="5ac29d0e-96e4-0454-4d59-7407042c1e16">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <Execution id="83ab3617-b005-4f90-a4f5-f171c736ebde" />
+      <TestMethod codeBase="C:\Users\Neidycita\Documents\GitHub\GoL_EverthAmaya\tpGoL\tpGoL\bin\Debug\tpGoL.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="tpGoL.UnitTest1, tpGoL" name="TestGrillaVacia" />
+    </UnitTest>
+    <UnitTest name="TestEstaVivaConDosOrTresVecinosVivos" storage="c:\users\neidycita\documents\github\gol_everthamaya\tpgol\tpgol\bin\debug\tpgol.dll" id="607063c9-5ec1-d089-74e9-62722376f246">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <Execution id="2c57f287-e508-402e-b103-1a3bb6efa906" />
+      <TestMethod codeBase="C:\Users\Neidycita\Documents\GitHub\GoL_EverthAmaya\tpGoL\tpGoL\bin\Debug\tpGoL.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="tpGoL.UnitTest1, tpGoL" name="TestEstaVivaConDosOrTresVecinosVivos" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="69daf279-0084-93aa-9ef3-7f2284b2e791" executionId="c12e2e1d-5e59-4ce2-ab08-1de3b12830e3" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="5ac29d0e-96e4-0454-4d59-7407042c1e16" executionId="83ab3617-b005-4f90-a4f5-f171c736ebde" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="050686cc-1fb9-8126-47b4-89796870e68b" executionId="8b9c1c40-a866-466d-a2db-4fed5b1281d7" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="607063c9-5ec1-d089-74e9-62722376f246" executionId="2c57f287-e508-402e-b103-1a3bb6efa906" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="e7672e9e-001c-1fcd-6a86-7bb5aaaac17f" executionId="29835aaf-5533-4425-a706-060104c85d51" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="c12e2e1d-5e59-4ce2-ab08-1de3b12830e3" testId="69daf279-0084-93aa-9ef3-7f2284b2e791" testName="TestMethod1" computerName="NEIDY" duration="00:00:00.0160892" startTime="2019-08-17T10:00:21.0083636-04:00" endTime="2019-08-17T10:00:21.2427416-04:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+      <Output>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="83ab3617-b005-4f90-a4f5-f171c736ebde" testId="5ac29d0e-96e4-0454-4d59-7407042c1e16" testName="TestGrillaVacia" computerName="NEIDY" duration="00:00:00.0017811" startTime="2019-08-17T10:00:21.2427416-04:00" endTime="2019-08-17T10:00:21.2427416-04:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+      <Output>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="8b9c1c40-a866-466d-a2db-4fed5b1281d7" testId="050686cc-1fb9-8126-47b4-89796870e68b" testName="TestEstaVivaConMenosDeDosVecinosVivos" computerName="NEIDY" duration="00:00:00.0017431" startTime="2019-08-17T10:00:21.2583668-04:00" endTime="2019-08-17T10:00:21.2583668-04:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+      <Output>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="2c57f287-e508-402e-b103-1a3bb6efa906" testId="607063c9-5ec1-d089-74e9-62722376f246" testName="TestEstaVivaConDosOrTresVecinosVivos" computerName="NEIDY" duration="00:00:00.0004678" startTime="2019-08-17T10:00:21.2739929-04:00" endTime="2019-08-17T10:00:21.2739929-04:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+      <Output>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="29835aaf-5533-4425-a706-060104c85d51" testId="e7672e9e-001c-1fcd-6a86-7bb5aaaac17f" testName="TestEstaVivaConMasDeVecinosVivos" computerName="NEIDY" duration="00:00:26.8222985" startTime="2019-08-17T10:00:21.2739929-04:00" endTime="2019-08-17T10:00:48.1336466-04:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+      <Output>
+      </Output>
+    </UnitTestResult>
+  </Results>
+</TestRun>
