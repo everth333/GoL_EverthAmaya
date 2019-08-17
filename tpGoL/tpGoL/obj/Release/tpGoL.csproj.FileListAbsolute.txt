@@ -1,0 +1,7 @@
+C:\Users\Neidycita\Documents\Visual Studio 2008\Projects\tpGoL\tpGoL\bin\Release\tpGoL.dll
+C:\Users\Neidycita\Documents\Visual Studio 2008\Projects\tpGoL\tpGoL\bin\Release\tpGoL.pdb
+C:\Users\Neidycita\Documents\Visual Studio 2008\Projects\tpGoL\tpGoL\bin\Release\caGOLeamaya.exe
+C:\Users\Neidycita\Documents\Visual Studio 2008\Projects\tpGoL\tpGoL\bin\Release\caGOLeamaya.pdb
+C:\Users\Neidycita\Documents\Visual Studio 2008\Projects\tpGoL\tpGoL\obj\Release\ResolveAssemblyReference.cache
+C:\Users\Neidycita\Documents\Visual Studio 2008\Projects\tpGoL\tpGoL\obj\Release\tpGoL.dll
+C:\Users\Neidycita\Documents\Visual Studio 2008\Projects\tpGoL\tpGoL\obj\Release\tpGoL.pdb

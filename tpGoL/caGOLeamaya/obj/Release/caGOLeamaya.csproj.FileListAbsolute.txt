@@ -1,0 +1,5 @@
+C:\Users\Neidycita\Documents\Visual Studio 2008\Projects\tpGoL\caGOLeamaya\bin\Release\caGOLeamaya.exe
+C:\Users\Neidycita\Documents\Visual Studio 2008\Projects\tpGoL\caGOLeamaya\bin\Release\caGOLeamaya.pdb
+C:\Users\Neidycita\Documents\Visual Studio 2008\Projects\tpGoL\caGOLeamaya\obj\Release\ResolveAssemblyReference.cache
+C:\Users\Neidycita\Documents\Visual Studio 2008\Projects\tpGoL\caGOLeamaya\obj\Release\caGOLeamaya.exe
+C:\Users\Neidycita\Documents\Visual Studio 2008\Projects\tpGoL\caGOLeamaya\obj\Release\caGOLeamaya.pdb
